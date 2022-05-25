@@ -1,0 +1,45 @@
+#btnWord{
+    height: 30px;
+    width: 60px;
+    text-align: center;
+    border-radius: 8px;
+    background-color: rgb(188, 188, 192);
+}
+button{
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    border-radius: 8px;
+    background-color: lightblue;
+    cursor: pointer;
+    opacity: 0.6;
+}
+button:active {
+    background-color: rgb(21, 169, 219);
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+  button:hover {opacity: 1}
+input{
+    width: 25px;
+}
+#myText{
+    height: 25px;
+    width: 140px;
+}
+
+.divClass{
+    height: 100px;
+    width: 200px;
+    background-color: transparent;
+    text-align: center;
+    align-items: center;
+    align-content: flex-start;
+    
+}
+img{
+    height: 250px;
+    width: 250px;
+    visibility: hidden;
+}
+
